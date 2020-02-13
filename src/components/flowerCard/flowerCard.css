@@ -1,0 +1,27 @@
+.flower-card {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    height: 29%;
+    margin: .25rem;
+    position: relative;
+    max-width: 24.5%;
+    text-align: left;
+}
+
+.flower-card>.img-container {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.flower-card>.img-container>img {
+    width: 100%;
+}
+
+.flower-card>.content {
+    padding-left: .25rem;
+    padding-right: .25rem;
+    font-size: 15px;
+}
